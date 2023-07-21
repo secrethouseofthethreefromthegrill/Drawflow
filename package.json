@@ -1,0 +1,41 @@
+{
+  "name": "drawflow",
+  "version": "0.0.55",
+  "description": "Simple flow library",
+  "main": "dist/drawflow.min.js",
+  "types": "dist/drawflow.d.ts",
+  "scripts": {
+    "dev": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerosoler/Drawflow.git"
+  },
+  "keywords": [
+    "flow",
+    "javascript",
+    "javascript-library",
+    "flow-based-programming",
+    "flowchart"
+  ],
+  "author": "Jero soler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jerosoler/Drawflow/issues"
+  },
+  "homepage": "https://github.com/jerosoler/Drawflow#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "husky": "^7.0.4",
+    "mini-css-extract-plugin": "^2.6.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.8",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
